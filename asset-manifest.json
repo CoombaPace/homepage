@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.b47f55a0.chunk.css",
+    "main.js": "/homepage/static/js/main.44183c25.chunk.js",
+    "main.js.map": "/homepage/static/js/main.44183c25.chunk.js.map",
+    "runtime~main.js": "/homepage/static/js/runtime~main.336ecad5.js",
+    "runtime~main.js.map": "/homepage/static/js/runtime~main.336ecad5.js.map",
+    "static/js/2.7662ae86.chunk.js": "/homepage/static/js/2.7662ae86.chunk.js",
+    "static/js/2.7662ae86.chunk.js.map": "/homepage/static/js/2.7662ae86.chunk.js.map",
+    "index.html": "/homepage/index.html",
+    "precache-manifest.8c3123cf71516d8b1ce0a4952e03883c.js": "/homepage/precache-manifest.8c3123cf71516d8b1ce0a4952e03883c.js",
+    "service-worker.js": "/homepage/service-worker.js",
+    "static/css/main.b47f55a0.chunk.css.map": "/homepage/static/css/main.b47f55a0.chunk.css.map",
+    "static/media/awnews.png": "/homepage/static/media/awnews.de45488e.png",
+    "static/media/bamazon.png": "/homepage/static/media/bamazon.af77d5f0.png",
+    "static/media/battlearena.png": "/homepage/static/media/battlearena.ca9e2397.png",
+    "static/media/iStock.png": "/homepage/static/media/iStock.64046793.png",
+    "static/media/liri.png": "/homepage/static/media/liri.01bdf4b7.png",
+    "static/media/memory_clicker.png": "/homepage/static/media/memory_clicker.1564e8dd.png",
+    "static/media/voltron_screen.png": "/homepage/static/media/voltron_screen.c14e772b.png"
+  }
+}
