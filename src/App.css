@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #636363;
 }
 
 .App-link {
@@ -30,4 +30,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cards {
+background: #2c2929;  
+padding: 80px;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
 }

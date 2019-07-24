@@ -1,0 +1,59 @@
+.animation-box {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    align-content: center;
+    display: inline-block;
+    width: 500px;
+    font-size: 40px;
+  }
+
+  .name {
+      font-size: 60px;
+      border-bottom: 3px solid darkgoldenrod;
+  }
+
+  .animated-text{
+    margin-top: 30px;
+  }
+
+.first-text {
+    padding-top: 30px;
+    margin: 0 auto;
+    position: absolute;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-duration: 2.4s;
+    color: #4B0082;
+  }
+  
+  .first2-text {
+    padding-top: 30px;
+    opacity: 0;
+    /* position: absolute; */
+    text-align: center;
+    margin: 0 auto;
+    animation-name: topFadeOut;
+    animation-delay: 2.5s;
+    animation-duration: 2.4s;
+    color: #4B0082;
+  }
+  
+  @keyframes topFadeOut {
+    0% {
+      opacity: 0;
+    }
+  
+    75% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .about {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
