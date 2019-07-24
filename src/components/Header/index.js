@@ -10,7 +10,7 @@ export default function SimpleContainer() {
           <AnimatedText/> 
         </div>
         <div className='icons'>
-          <i className="fab fa-github"></i><i className="fab fa-linkedin"></i><i className="fas fa-envelope-square"></i>
+          <p className='header'>Project Gallery</p>
         </div>
       </div>
     </React.Fragment>

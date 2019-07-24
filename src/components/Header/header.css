@@ -7,8 +7,9 @@
   }
   
 .header {
-  padding: 60px;
-  font-size: 60px;
+  margin-block-start: 0;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 3px;
 }
 
 .MuiContainer {
@@ -32,7 +33,7 @@
   }
 
 .icons {
-  font-size: 50px;
+  font-size: 40px;
   color: #4B0082;
   margin-top: 320px;
   border-top: 3px solid darkgoldenrod;

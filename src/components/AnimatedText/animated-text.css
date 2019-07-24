@@ -23,7 +23,7 @@
     position: absolute;
     opacity: 0;
     animation-name: topFadeOut;
-    animation-duration: 2.4s;
+    animation-duration: 2.8s;
     color: #4B0082;
   }
   
@@ -34,8 +34,8 @@
     text-align: center;
     margin: 0 auto;
     animation-name: topFadeOut;
-    animation-delay: 2.5s;
-    animation-duration: 2.4s;
+    animation-delay: 2.9s;
+    animation-duration: 2.8s;
     color: #4B0082;
   }
   
@@ -49,11 +49,38 @@
     }
   
     100% {
-      opacity: 0;
+      opacity: 1;
     }
   }
 
   .about {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+  }
+
+  .first-text4 {
+    animation: fadeIn 1s ease-in-out 3s;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 5.8s;
+    animation-duration: 2.8s;
+  }
+
+  .first-text5 {
+    animation: fadeIn 1s ease-in-out 3s;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 8.6s;
+    animation-duration: 2.8s;
+  }
+
+  .first-text6 {
+    animation: fadeIn 1s ease-in-out 3s;
+    animation-fill-mode: forwards; 
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 11.6s;
+    animation-duration: 2.8s;
   }
