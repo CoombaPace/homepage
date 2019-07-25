@@ -39,3 +39,8 @@ display: flex;
 flex-flow: row wrap;
 justify-content: center;
 }
+
+.modal-img {
+  width: 100%;
+  position: relative;
+}

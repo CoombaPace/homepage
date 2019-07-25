@@ -111,15 +111,14 @@ class App extends Component {
 
                 {this.state.showModal ? (
                   <Modal onClose={this.handleCloseModal}>
-                    <span>ID: {this.state.tileData[this.state.clickedIndex].id}  |  </span>
-                    <br />
+                    
                     <span>Name: {this.state.tileData[this.state.clickedIndex].name}   |   </span>
                     <br />
-                    <span>Repo: {this.state.tileData[this.state.clickedIndex].repo}   |   </span>
+                    <span>{this.state.tileData[this.state.clickedIndex].description}  |  </span>
                     <br />
-                    <span>Demo: {this.state.tileData[this.state.clickedIndex].demo}   |   </span>
+                    <span>Repo: {this.state.tileData[this.state.clickedIndex].repo}   |   Demo: {this.state.tileData[this.state.clickedIndex].demo} </span>
                     <br />
-                    <img src={this.state.tileData[this.state.clickedIndex].img} alt='project sample' />
+                    <img className='modal-img' src={this.state.tileData[this.state.clickedIndex].img} alt='project sample' />
 
                   </Modal>
                 ) : null}
