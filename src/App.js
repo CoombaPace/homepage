@@ -20,7 +20,7 @@ let tileData = [
   {
       id: 1,
       img: image1,
-      title: 'iStock',
+      title: 'Stockabily',
       creator: 'John Ortega, Erik Johnson, Sam Lutz, Mattia Pace',
       repo: 'https://github.com/CoombaPace/reactstock',
       demo: 'https://reactstock.herokuapp.com/',
@@ -30,8 +30,8 @@ let tileData = [
       id: 2,
       img: image2,
       title: 'Memory Clicker',
-      creator: 'Mattia Paceauthor',
-      repo: 'www.github.com/coombapace/',
+      creator: 'Mattia Pace',
+      repo: 'https://github.com/CoombaPace/react-memory-game',
       demo: 'https://coombapace.github.io/react-memory-game/',
       description: ''
     },
@@ -40,7 +40,7 @@ let tileData = [
       img: image3,
       title: 'AWNews Scraper',
       creator: 'Mattia Pace',
-      repo: 'https://coombapace.github.io/awnews',
+      repo: 'https://www.github.com/coombapace/awnews',
       demo: 'https://awnews.herokuapp.com',
       description: ''
   },
@@ -112,14 +112,15 @@ class App extends Component {
                 {this.state.showModal ? (
                   <Modal onClose={this.handleCloseModal}>
                     
-                    <span>Name: {this.state.tileData[this.state.clickedIndex].name}   |   </span>
+                    <span> {this.state.tileData[this.state.clickedIndex].title} </span>
                     <br />
-                    <span>{this.state.tileData[this.state.clickedIndex].description}  |  </span>
+                    <span> {this.state.tileData[this.state.clickedIndex].description} </span>
                     <br />
-                    <span>Repo: {this.state.tileData[this.state.clickedIndex].repo}   |   Demo: {this.state.tileData[this.state.clickedIndex].demo} </span>
+                    <span> Demo: {this.state.tileData[this.state.clickedIndex].demo} </span>
                     <br />
+                    <a href={this.state.tileData[this.state.clickedIndex].repo}> <i className="fab fa-github" > </i></a>
+                    <a href={this.state.tileData[this.state.clickedIndex].demo}> <i class="fas fa-chevron-right"> </i></a>
                     <img className='modal-img' src={this.state.tileData[this.state.clickedIndex].img} alt='project sample' />
-
                   </Modal>
                 ) : null}
               </div>

@@ -25,7 +25,7 @@ class Modal extends React.Component {
             <div
               style={{
                 padding: 20,
-                background: '#fff',
+                background: '#4B0082',
                 borderRadius: '2px',
                 display: 'inline-block',
                 margin: '1rem',
@@ -37,8 +37,8 @@ class Modal extends React.Component {
             >
               {this.props.children}
               
-              <hr />
-              <button onClick={this.props.onClose}>Close</button>
+              {/* <hr />
+              <button onClick={this.props.onClose}>Close</button> */}
 
             </div>
           </div>
