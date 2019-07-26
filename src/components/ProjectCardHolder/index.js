@@ -21,7 +21,6 @@ class ProjectCardHolder extends Component {
       <ProjectCards
             data={this.props.data}
             handleShowMessageClick={this.props.handleShowMessageClick}
-            style={{width: this.props.data.width + 'rem'}}
             />
       </div>
     );

@@ -24,8 +24,7 @@ let tileData = [
       creator: 'John Ortega, Erik Johnson, Sam Lutz, Mattia Pace',
       repo: 'https://github.com/CoombaPace/reactstock',
       demo: 'https://reactstock.herokuapp.com/',
-      description: '',
-      width: 25
+      description: ''
     },
     {
       id: 2,
@@ -34,8 +33,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'https://github.com/CoombaPace/react-memory-game',
       demo: 'https://coombapace.github.io/react-memory-game/',
-      description: '',
-      width: ''
+      description: ''
     },
     {
       id: 3,
@@ -44,8 +42,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'https://www.github.com/coombapace/awnews',
       demo: 'https://awnews.herokuapp.com',
-      description: '',
-      width: ''
+      description: ''
   },
   {
       id: 4,
@@ -54,8 +51,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: '',
-      width: ''
+      description: ''
   },
   {
       id: 5,
@@ -64,8 +60,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: '',
-      width: ''
+      description: ''
   },
   {
       id: 6,
@@ -74,8 +69,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: '',
-      width: ''
+      description: ''
   },
   {
       id: 7,
@@ -84,8 +78,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: '',
-      width: ''
+      description: ''
   },
 ];
 
