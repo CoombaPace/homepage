@@ -16,11 +16,12 @@ class ProjectCardHolder extends Component {
   render() {
     
     return (
-      <div className='card-group'>
+      <div className='project-cards'>
 
       <ProjectCards
             data={this.props.data}
             handleShowMessageClick={this.props.handleShowMessageClick}
+            style={{width: this.props.data.width + 'rem'}}
             />
       </div>
     );

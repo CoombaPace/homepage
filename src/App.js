@@ -24,7 +24,8 @@ let tileData = [
       creator: 'John Ortega, Erik Johnson, Sam Lutz, Mattia Pace',
       repo: 'https://github.com/CoombaPace/reactstock',
       demo: 'https://reactstock.herokuapp.com/',
-      description: ''
+      description: '',
+      width: 25
     },
     {
       id: 2,
@@ -33,7 +34,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'https://github.com/CoombaPace/react-memory-game',
       demo: 'https://coombapace.github.io/react-memory-game/',
-      description: ''
+      description: '',
+      width: ''
     },
     {
       id: 3,
@@ -42,7 +44,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'https://www.github.com/coombapace/awnews',
       demo: 'https://awnews.herokuapp.com',
-      description: ''
+      description: '',
+      width: ''
   },
   {
       id: 4,
@@ -51,7 +54,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: ''
+      description: '',
+      width: ''
   },
   {
       id: 5,
@@ -60,7 +64,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: ''
+      description: '',
+      width: ''
   },
   {
       id: 6,
@@ -69,7 +74,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: ''
+      description: '',
+      width: ''
   },
   {
       id: 7,
@@ -78,7 +84,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: ''
+      description: '',
+      width: ''
   },
 ];
 
@@ -115,8 +122,6 @@ class App extends Component {
                     <span> {this.state.tileData[this.state.clickedIndex].title} </span>
                     <br />
                     <span> {this.state.tileData[this.state.clickedIndex].description} </span>
-                    <br />
-                    <span> Demo: {this.state.tileData[this.state.clickedIndex].demo} </span>
                     <br />
                     <a href={this.state.tileData[this.state.clickedIndex].repo}> <i className="fab fa-github" > </i></a>
                     <a href={this.state.tileData[this.state.clickedIndex].demo}> <i class="fas fa-chevron-right"> </i></a>

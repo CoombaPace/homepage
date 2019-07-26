@@ -9,7 +9,7 @@ function ProjectCards(props) {
 
   return (
       
-      <div className='card-group'>
+      
         <div className="card"
             //  cardBG={props.cardBG}
             data={props.data}
@@ -25,8 +25,6 @@ function ProjectCards(props) {
                 <img id='cardImg' src={props.data.img} alt={'project sample'}/>
 
         </div>
-      </div>
-
   );
 }
 
