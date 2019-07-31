@@ -43,4 +43,22 @@ justify-content: space-evenly;
 .modal-img {
   width: 100%;
   position: relative;
+  border: 3px solid darkgoldenrod;
+}
+#project-links {
+  color: gray;
+  font-size: 40px;
+}
+
+.project-title {
+  color: rgb(120, 179, 31);
+  font-size: 25px;
+  border-bottom: 3px solid darkgoldenrod;
+  margin-bottom: 5px;
+  line-height: 2;
+}
+
+.project-info {
+  color: rgb(120, 179, 31);
+  font-size: 20px;
 }

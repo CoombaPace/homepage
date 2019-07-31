@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+
+// Components
 import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
-// import Gallery from './components/Gallery'
 import Wrapper from './components/Wrapper'
 import ProjectCardHolder from './components/ProjectCardHolder'
 import Modal from './components/Modal/Modal'
 
+// Images:
 import image1 from './images/iStock.png'
 import image2 from './images/memory_clicker.png'
 import image3 from './images/awnews.png'
@@ -15,7 +17,7 @@ import image5 from './images/voltron_screen.png'
 import image6 from './images/bamazon.png'
 import image7 from './images/liri.png'
 
-
+// Project Data:
 let tileData = [
   {
       id: 1,
@@ -29,11 +31,11 @@ let tileData = [
     {
       id: 2,
       img: image2,
-      title: 'Memory Clicker',
+      title: 'Mass Effect Memory Clicker',
       creator: 'Mattia Pace',
       repo: 'https://github.com/CoombaPace/react-memory-game',
       demo: 'https://coombapace.github.io/react-memory-game/',
-      description: ''
+      description: 'A click based memory game made with ReactJS and themed off of the Mass Effect game franchise. Player can only click an image once, repeat clicks will end and restart the game. Keep trying to set a new personal best top score!'
     },
     {
       id: 3,
@@ -112,13 +114,13 @@ class App extends Component {
                 {this.state.showModal ? (
                   <Modal onClose={this.handleCloseModal}>
                     
-                    <span> {this.state.tileData[this.state.clickedIndex].title} </span>
+                    <span className='project-title'> {this.state.tileData[this.state.clickedIndex].title} </span>
                     <br />
-                    <span> {this.state.tileData[this.state.clickedIndex].description} </span>
+                    <span className='project-info'> {this.state.tileData[this.state.clickedIndex].description} </span>
                     <br />
-                    <a href={this.state.tileData[this.state.clickedIndex].repo}> <i className="fab fa-github" > </i></a>
-                    <a href={this.state.tileData[this.state.clickedIndex].demo}> <i class="fas fa-chevron-right"> </i></a>
                     <img className='modal-img' src={this.state.tileData[this.state.clickedIndex].img} alt='project sample' />
+                    <a href={this.state.tileData[this.state.clickedIndex].repo}> <i id='project-links' className="fab fa-github"> </i></a>
+                    <a href={this.state.tileData[this.state.clickedIndex].demo}> <i id='project-links' className="fas fa-chevron-right"> </i></a>                  
                   </Modal>
                 ) : null}
               </div>

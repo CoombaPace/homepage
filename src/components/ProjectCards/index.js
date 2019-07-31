@@ -1,7 +1,5 @@
 import React from "react";
 import Modal from "../Modal/Modal"
-import './projectCards.css'
-
 
 
 function ProjectCards(props) {

@@ -1,3 +1,12 @@
+# Official Portfolio
+## Under Construction
+
+[Check it out](https://coombapace.github.io/Portfolio/)
+
+#### ReactJS SPA Portfolio
+##### TODO Modal styling, description data/styling, Link to message Email or Telegram, Slack, etc.
+
+#### Create React App Documentation:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

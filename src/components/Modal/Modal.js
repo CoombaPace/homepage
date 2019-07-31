@@ -24,7 +24,7 @@ class Modal extends React.Component {
           >
             <div
               style={{
-                padding: 20,
+                padding: 10,
                 background: '#4B0082',
                 borderRadius: '2px',
                 display: 'inline-block',
@@ -33,6 +33,7 @@ class Modal extends React.Component {
                 position: 'relative',
                 boxShadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)',
                 justifySelf: 'center',
+                textAlign: 'center'
               }}
             >
               {this.props.children}
