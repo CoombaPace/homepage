@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.906af325.chunk.css",
+    "main.css": "/homepage/static/css/main.8c52335e.chunk.css",
     "main.js": "/homepage/static/js/main.a02cae06.chunk.js",
     "main.js.map": "/homepage/static/js/main.a02cae06.chunk.js.map",
     "runtime~main.js": "/homepage/static/js/runtime~main.336ecad5.js",
@@ -8,9 +8,9 @@
     "static/js/2.7662ae86.chunk.js": "/homepage/static/js/2.7662ae86.chunk.js",
     "static/js/2.7662ae86.chunk.js.map": "/homepage/static/js/2.7662ae86.chunk.js.map",
     "index.html": "/homepage/index.html",
-    "precache-manifest.b6bfcc96b7df4bdb51e68b7434df8b36.js": "/homepage/precache-manifest.b6bfcc96b7df4bdb51e68b7434df8b36.js",
+    "precache-manifest.cf2530f7e799d58ebc705f01a68a7b07.js": "/homepage/precache-manifest.cf2530f7e799d58ebc705f01a68a7b07.js",
     "service-worker.js": "/homepage/service-worker.js",
-    "static/css/main.906af325.chunk.css.map": "/homepage/static/css/main.906af325.chunk.css.map",
+    "static/css/main.8c52335e.chunk.css.map": "/homepage/static/css/main.8c52335e.chunk.css.map",
     "static/media/awnews.png": "/homepage/static/media/awnews.de45488e.png",
     "static/media/bamazon.png": "/homepage/static/media/bamazon.af77d5f0.png",
     "static/media/battlearena.png": "/homepage/static/media/battlearena.ca9e2397.png",
