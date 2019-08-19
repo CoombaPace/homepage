@@ -26,7 +26,7 @@ let tileData = [
       creator: 'John Ortega, Erik Johnson, Sam Lutz, Mattia Pace',
       repo: 'https://github.com/CoombaPace/reactstock',
       demo: 'https://reactstock.herokuapp.com/',
-      description: ''
+      description: 'Designed to be a lightweight and to-the-point was of staying on top of the stock market. Try the app and when ready, setup a username and profile to save the stocks you\'re interested in. Click the stocks to find more detailed in for as well as a chart of activity. Click the Refresh button to fetch most current information.'
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'https://www.github.com/coombapace/awnews',
       demo: 'https://awnews.herokuapp.com',
-      description: ''
+      description: 'A news scraper that returns top headlines from the AntiWar.com XML feed. '
   },
   {
       id: 4,
@@ -53,7 +53,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: ''
+      description: 'A clicky game where the hcalleneg is to choose your pponent wisely, based on your selected hero. Themed off of Netflix\'s Dragon Prince Animated Series.'
   },
   {
       id: 5,
@@ -62,7 +62,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: ''
+      description: 'Voltron themed trivia game. Race against the clock to plumb the depths of your Voltron knowledge and choose correctly.'
   },
   {
       id: 6,
@@ -71,7 +71,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: ''
+      description: 'A store made with Node.js. Has 3 different interfaces and levels of permission: customer, manager, and supervisor.'
   },
   {
       id: 7,
@@ -80,7 +80,7 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: ''
+      description: 'A small app that runs on simple text commands. Similar to SIRI, but without the voice activation. It can search for movie or song info, find a performer\'s upcoming events, and misc. commands that can be specified in a .txt file.'
   },
 ];
 
