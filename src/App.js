@@ -26,7 +26,8 @@ let tileData = [
       creator: 'John Ortega, Erik Johnson, Sam Lutz, Mattia Pace',
       repo: 'https://github.com/CoombaPace/reactstock',
       demo: 'https://reactstock.herokuapp.com/',
-      description: 'Designed to be a lightweight and to-the-point was of staying on top of the stock market. Try the app and when ready, setup a username and profile to save the stocks you\'re interested in. Click the stocks to find more detailed in for as well as a chart of activity. Click the Refresh button to fetch most current information.'
+      description: 'Designed to be a lightweight and to-the-point way of staying on top of the stock market. Try the app and when ready, setup a username and profile to save the stocks you\'re interested in. Click the stocks to find more detailed info. Click the Refresh button to fetch most current information.',
+      tools: 'Built on ReactJS using create-react-app. I worked as part of a team, where I coded the Cards and Modal, including the map function that sorts their data, and worked extensively with GitHub.'
     },
     {
       id: 2,
@@ -35,7 +36,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'https://github.com/CoombaPace/react-memory-game',
       demo: 'https://coombapace.github.io/react-memory-game/',
-      description: 'A click based memory game made with ReactJS and themed off of the Mass Effect game franchise. Player can only click an image once, repeat clicks will end and restart the game. Keep trying to set a new personal best top score!'
+      description: 'A click based memory game made with ReactJS and themed off of the Mass Effect game franchise. Player can only click an image once, repeat clicks will end and restart the game. Keep trying to set a new personal best top score!',
+      tools: 'Built on ReactJS, bootstrapped with create-react-app. I used Material UI for the components, and designed the UI to mimick the screen of the Mass Effect console/PC game.'
     },
     {
       id: 3,
@@ -44,7 +46,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'https://www.github.com/coombapace/awnews',
       demo: 'https://awnews.herokuapp.com',
-      description: 'A news scraper that returns top headlines from the AntiWar.com XML feed. '
+      description: 'A news scraper that returns top headlines from the AntiWar.com XML feed.',
+      tools: 'Built with Node.js, MongoDB, Mongoose, Cheerio, Axios, Express, and Express Handlebars.'
   },
   {
       id: 4,
@@ -53,7 +56,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: 'A clicky game where the hcalleneg is to choose your pponent wisely, based on your selected hero. Themed off of Netflix\'s Dragon Prince Animated Series.'
+      description: 'A clicky game where the challenge is to choose your opponent based on your selected hero. Themed off of Netflix\'s Dragon Prince Animated Series.',
+      tools: 'Written in JavaScript with HTML, CSS, and jQuery.'
   },
   {
       id: 5,
@@ -62,7 +66,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: 'Voltron themed trivia game. Race against the clock to plumb the depths of your Voltron knowledge and choose correctly.'
+      description: 'Voltron themed trivia game. Race against the clock to plumb the depths of your Voltron knowledge and choose correctly.',
+      tools: 'Built with HTML, CSS, and jQuery'
   },
   {
       id: 6,
@@ -71,7 +76,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: 'A store made with Node.js. Has 3 different interfaces and levels of permission: customer, manager, and supervisor.'
+      description: 'A store made with Node.js and MySQL. Has 3 different interfaces and levels of permission: customer, manager, and supervisor.',
+      tools: ''
   },
   {
       id: 7,
@@ -80,7 +86,8 @@ let tileData = [
       creator: 'Mattia Pace',
       repo: 'www.github.com/coombapace/',
       demo: '',
-      description: 'A small app that runs on simple text commands. Similar to SIRI, but without the voice activation. It can search for movie or song info, find a performer\'s upcoming events, and misc. commands that can be specified in a .txt file.'
+      description: 'A small app that runs on simple text commands. Similar to SIRI, but without the voice activation. It can search for movie or song info, find a performer\'s upcoming events, and misc. commands that can be specified in a .txt file.',
+      tools: 'Built with Node.js, frameworks, tools, & APIs used include Node-Spotify-API, Axios, OMDB API, Bands In Town API, MomentJS, and DotEnv.'
   },
 ];
 
@@ -113,14 +120,20 @@ class App extends Component {
 
                 {this.state.showModal ? (
                   <Modal onClose={this.handleCloseModal}>
-                    
-                    <span className='project-title'> {this.state.tileData[this.state.clickedIndex].title} </span>
-                    <br />
-                    <span className='project-info'> {this.state.tileData[this.state.clickedIndex].description} </span>
-                    <br />
-                    <img className='modal-img' src={this.state.tileData[this.state.clickedIndex].img} alt='project sample' />
-                    <a href={this.state.tileData[this.state.clickedIndex].repo}> <i id='project-links' className="fab fa-github"> </i></a>
-                    <a href={this.state.tileData[this.state.clickedIndex].demo}> <i id='project-links' className="fas fa-chevron-right"> </i></a>                  
+                    <div className='projects'>
+                      <span className='project-title'> {this.state.tileData[this.state.clickedIndex].title} </span>
+                      <div className='bar'></div>
+                      <br />
+                      <span className='project-info'> 
+                        <p> {this.state.tileData[this.state.clickedIndex].description} </p>
+                        
+                        <p> {this.state.tileData[this.state.clickedIndex].tools} </p>
+                      </span>
+                      <br />
+                      <img className='modal-img' src={this.state.tileData[this.state.clickedIndex].img} alt='project sample' />
+                      <a href={this.state.tileData[this.state.clickedIndex].repo}> <i id='project-links' className="fab fa-github"> </i></a>
+                      <a href={this.state.tileData[this.state.clickedIndex].demo}> <i id='project-links' className="fas fa-chevron-right"> </i></a>                  
+                    </div>
                   </Modal>
                 ) : null}
               </div>
