@@ -4,7 +4,11 @@
 [Check it out](https://coombapace.github.io/homepage/)
 
 #### ReactJS SPA Portfolio
-##### TODO Modal styling, description data/styling, Link to message Email or Telegram, Slack, etc.
+##### TODO 
+1. Mailer - Link to message Email or Telegram, Slack.
+2. Get all footer links working.
+3. Display tools used on hover over slide.
+4. Secret, nice touches planned!
 
 #### Create React App Documentation:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
