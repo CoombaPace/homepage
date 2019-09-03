@@ -1,14 +1,19 @@
 import React from 'react'; 
-import './footer.css'  
+import './footer.scss'  
 
-export default function SimpleContainer() {
+
+class Footer extends React.Component {
+  
+  render() {
+    
     return (
-    <React.Fragment>
       <div className="footer-container">
         <div className='footer-icons'>
-          <i className="fab fa-github"></i><i className="fab fa-linkedin"></i><i className="fas fa-envelope-square"></i>
+          <i className="fab fa-github" id='github-icon'></i><i className="fab fa-linkedin"></i><i className="fas fa-envelope-square" id='email-icon'></i>
         </div>
       </div>
-    </React.Fragment>
-  );
+    )
+  }
 }
+
+export default Footer;

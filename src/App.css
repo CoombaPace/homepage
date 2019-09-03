@@ -32,42 +32,35 @@
   }
 }
 
-.cards {
-background: #2c2929;  
-padding: 12px;
-display: flex;
-flex-flow: row wrap;
-justify-content: space-evenly;
+.panels {
+  position:relative;
+  height:100%;
+  min-height:100%;
+  width:100%;
+  z-index:1000;
 }
 
-.modal-img {
+#header {
+  background-color: #181616;
+  position:fixed;
+  color:white;
+  top:0;
+  z-index:-99;
+}
+
+#app {
+  background-color: #000000;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  /* justify-content: center; */
+  overflow-x: hidden;
   width: 100%;
-  position: relative;
-  border: 3px solid darkgoldenrod;
-}
-#project-links {
-  color: gray;
-  font-size: 40px;
+  margin-top: 100%;
 }
 
-.projects {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.project-title {
-  color: rgb(120, 179, 31);
-  font-size: 25px;
-  margin-bottom: 5px;
-  line-height: 2;
+#footer {
+  background-color: #181616;
+  height: 50vh;
 }
 
-.bar {
-  border-bottom: 3px solid darkgoldenrod;
-}
-
-.project-info {
-  color: rgb(120, 179, 31);
-  font-size: 20px;
-  text-align: justify;
-  width: 90%;
-}
