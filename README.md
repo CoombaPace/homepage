@@ -1,7 +1,7 @@
 # Official Portfolio
 ## Under Construction
 
-[Check it out](https://coombapace.github.io/Portfolio/)
+[Check it out](https://coombapace.github.io/hompage/)
 
 #### ReactJS SPA Portfolio
 ##### TODO Modal styling, description data/styling, Link to message Email or Telegram, Slack, etc.
