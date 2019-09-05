@@ -44,7 +44,7 @@ import './slider.scss'
     }
     
     render() {
-      const { src, button, headline, index, repo, demo } = this.props.slide
+      const { src, button, headline, index, repo, demo, tools } = this.props.slide
       const current = this.props.current
       let classNames = 'slide'
       
@@ -71,7 +71,8 @@ import './slider.scss'
           
           <article className="slide__content">
             <h2 className="slide__headline">{headline}</h2>
-            {/* <button className="slide__action btn">{button}</button> */}
+            {/* <h3 className="project-tools">{tools}</h3> */}
+            <button className="slide__action btn">{tools}</button>
             <a href={repo}> <i className="fab fa-github-alt" id="currentSlide"> </i></a>
             <a href={demo}> <i className="fas fa-chevron-right" id="currentSlide"> </i></a>
           </article>

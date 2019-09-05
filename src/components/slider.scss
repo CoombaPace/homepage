@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|IBM+Plex+Sans:500&display=swap');
 
+@font-face {
+  font-family: 'MADE SAONARA 2 PERSONAL USE.otf';
+  src: url('../fonts/made_saonara/MADE\ SAONARA\ 2\ PERSONAL\ USE.otf');
+}
 :root {
   --color-primary: #6B7A8F;
   --color-secondary: #101118;
@@ -27,7 +31,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'MADE SAONARA 2 PERSONAL USE.otf';
 }
 
 .visuallyhidden { 
@@ -76,15 +80,15 @@ h1, h2, h3 {
   }
 }
 
-.header-bg {
-  background-color: #181616;
-}
-
 #currentSlide {
   font-size: 62px;
   padding-right: 40px;
   margin-top: 10%;
-  color: white;
+}
+
+.project-tools {
+  // color: rgb(75, 162, 114);
+  // color: goldenrod;
 }
 
 
@@ -202,7 +206,8 @@ h1, h2, h3 {
   
   @media (hover: hover) {
     &:hover .slide__image-wrapper {
-      box-shadow: 0px 1px 9px 6px #999;
+      box-shadow: 0px 1px 9px 6px #4B0082;
+      ;
 
       transform: 
         scale(1.025)
@@ -262,14 +267,15 @@ h1, h2, h3 {
   font-size: 8vmin;
   font-weight: 600;
   position: relative;
-  color: white;
+  // color: rgb(75, 162, 114);
+  color: darkslategrey;
   -webkit-text-stroke: 1px black;
   text-shadow:
-      3px 3px 0 #000,
+    3px 3px 0 #000,
     -1px -1px 0 #000,  
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .slide__content {

@@ -1,35 +1,37 @@
 
-  
 h1 {
   margin-block-start: 0;
-  /* font-family: 'Russo One', sans-serif; */
-  /* font-family: 'Libre Baskerville', serif; */
-  letter-spacing: 3px;
-  font-size: 17.41667vw;
+  color: white;
+  text-shadow: 0 20px 12px #000;
+  margin-top: -3vw;
+  letter-spacing: 0.9vw;
+  font-size: 21vw;
+  line-height: 22vw;
 }
 
-.icons {
-  font-size: 40px;
-  color: #4B0082;
-  margin-top: 320px;
-  border-top: 3px solid darkgoldenrod;
-  padding-top: 30px;
+.header-bg {
+  background-color: #181616;
+  height: 100%;
 }
 
 .bar {
-  border-bottom: 3px solid #f7c445;
-  width: 70%;
+  border-bottom: 6px solid #f7c445;
+  width: 65%;
   margin: 0 auto;
-  margin-top: -100px;
+  margin-top: -7%;
 }
 
 .about {
-  font-size: 40px;
-  margin: 0 auto;
-  width: 97%;
-  letter-spacing: 4px;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
+  font-size: 5.7vh;
+  /* margin: 0 auto; */
+  /* width: 97%; */
+  /* letter-spacing: 2vh; */
+  /* text-align: center; */
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'ZCOOL XiaoWei', serif; */
+  line-height: 7vh;
+  /* font-family: 'Gayathri', sans-serif; */
+  font-family: 'Major Mono Display', monospace;
 }
 
 #h-h1-hero {

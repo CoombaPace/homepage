@@ -43,7 +43,7 @@ const slideData = [
     tools: 'ReactJS using create-react-app. I worked as part of a team, where  and worked extensively with GitHub.'
   },
   {
-    index: 3,
+    index: 2,
     headline: 'AWNews Scraper',
     src: image3,
     id: 3,
@@ -115,15 +115,17 @@ class App extends Component {
       <div className="App">
         <Wrapper>
           <div className='container'>
-            <div className='panels' id='header'>
-              <Header/>
-            </div>
-            <div className='panels' id="app">
-              <Slider heading="Example Slider" slides={slideData} />
-            </div>
-            <div className='panels' id='footer'>
-              <Footer/>
-            </div>
+            <div className='parallax-group'>
+              <div className='panels' id='header'>
+                <Header/>
+              </div>
+              <div className='panels' id="app">
+                <Slider heading="Project Slider" slides={slideData} />
+              </div>
+              <div className='panels' id='footer'>
+                <Footer/>
+              </div>
+            </div>  
           </div>
         </Wrapper>
       </div>

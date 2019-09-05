@@ -12,13 +12,15 @@ import './header.css'
             </header>
             <div className='bar'></div>
             <section className='about'>
-              <p>
-              <span style={{letterSpacing: '7px'}}>is an atlanta based developer specializing in leveraging</span> 
-                <br />
-                <span style={{letterSpacing: '32px'}}>economics + coding + design</span> 
-                <br />
-                <span style={{letterSpacing: '8px'}}>to create value, solve problems, and uplift humanity.</span>
-              </p>
+              <header>
+                <h5>
+                <span style={{letterSpacing: '0.65vh'}}>is an atlanta based developer specializing in leveraging</span> 
+                  <br />
+                  <span style={{letterSpacing: '3.35vh'}}>coding + design + economics</span> 
+                  <br />
+                  <span style={{letterSpacing: '0.75vh'}}>to create value, solve problems, and uplift humanity.</span>
+                </h5>
+              </header>
             </section>
         </div>
       )

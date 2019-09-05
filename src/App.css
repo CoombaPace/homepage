@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #181616;
 }
 
 .App-logo {
@@ -9,7 +10,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,35 +33,53 @@
   }
 }
 
+.container {
+  perspective: 1px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-group {
+  position: relative;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
 .panels {
-  position:relative;
-  height:100%;
-  min-height:100%;
-  width:100%;
-  z-index:1000;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 #header {
-  background-color: #181616;
-  position:fixed;
-  color:white;
-  top:0;
-  z-index:-99;
+  color: white;
+  top: 0;
+  height: 100%;
+  transform: translateZ(-10px) scale(11);
 }
 
 #app {
+  border-top: 6px solid #f7c445;
   background-color: #000000;
   align-items: center;
   display: flex;
-  height: 100vh;
-  /* justify-content: center; */
+  height: 120vh;
+  justify-content: center;
   overflow-x: hidden;
   width: 100%;
-  margin-top: 100%;
+  margin-top: 210vh;
+  transform: translateZ(-1px) scale(2);
 }
 
 #footer {
   background-color: #181616;
-  height: 50vh;
+  height: 220vh;
+  margin-top: 320vh;
 }
 
