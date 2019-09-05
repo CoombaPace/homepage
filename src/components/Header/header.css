@@ -5,13 +5,17 @@ h1 {
   text-shadow: 0 20px 12px #000;
   margin-top: -3vw;
   letter-spacing: 0.9vw;
-  font-size: 21vw;
+  /* font-size: 21vw; */
+  font-size: 5.7vw;
+
   line-height: 22vw;
+  font-weight: 100;
 }
 
 .header-bg {
   background-color: #181616;
   height: 100%;
+  font-size: 21vw;
 }
 
 .bar {
@@ -21,16 +25,13 @@ h1 {
   margin-top: -7%;
 }
 
-.about {
+#about-section {
   font-size: 5.7vh;
-  /* margin: 0 auto; */
-  /* width: 97%; */
-  /* letter-spacing: 2vh; */
-  /* text-align: center; */
-  /* font-family: 'Playfair Display', serif; */
-  /* font-family: 'ZCOOL XiaoWei', serif; */
-  line-height: 7vh;
-  /* font-family: 'Gayathri', sans-serif; */
+}
+
+.about {
+  /* font-size: 5.7vw; */
+  line-height: 7vw;
   font-family: 'Major Mono Display', monospace;
 }
 

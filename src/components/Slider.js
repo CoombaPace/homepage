@@ -148,6 +148,7 @@ import './slider.scss'
       }
       
       return (
+        
         <div className='slider' aria-labelledby={headingId}>
           <ul className="slider__wrapper" style={wrapperTransform}>
             <h3 id={headingId} class="visuallyhidden">{heading}</h3>

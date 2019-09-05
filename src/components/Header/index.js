@@ -8,18 +8,18 @@ import './header.css'
       return (
         <div className='header-bg'>
             <header>
-                <h1>mattia pace</h1>
+                <h1 style={{fontSize: '21vw'}}>mattia pace</h1>
             </header>
             <div className='bar'></div>
             <section className='about'>
               <header>
-                <h5>
-                <span style={{letterSpacing: '0.65vh'}}>is an atlanta based developer specializing in leveraging</span> 
+                <h1 style={{fontFamily: 'Major Mono Display, monospace', fontSize: '2.8vw', lineHeight: '6vw', marginTop: '3vw', letterSpacing: '-0.34vw'}}>
+                  is an atlanta based developer specializing in leveraging 
                   <br />
-                  <span style={{letterSpacing: '3.35vh'}}>coding + design + economics</span> 
+                  <span style={{letterSpacing: '1.52vw'}}>coding + design + economics</span> 
                   <br />
-                  <span style={{letterSpacing: '0.75vh'}}>to create value, solve problems, and uplift humanity.</span>
-                </h5>
+                  <span style={{letterSpacing: '-0.23vw'}}>to create value, solve problems, and uplift humanity.</span>
+                </h1>
               </header>
             </section>
         </div>
