@@ -21,13 +21,13 @@ const slideData = [
   {
     id: 1,
     index: 0,
-    headline: 'Mass Effect Memory Clicker',
+    headline: 'Memory Clicker Game',
     src: image2,
     creator: 'Mattia Pace',
     repo: 'https://github.com/CoombaPace/react-memory-game',
     demo: 'https://coombapace.github.io/react-memory-game/',
     description: 'A click based memory game made with ReactJS and themed off of the Mass Effect game franchise. Player can only click an image once, repeat clicks will end and restart the game. Keep trying to set a new personal best top score!',
-    tools: 'Built on ReactJS, bootstrapped with create-react-app. I used Material UI for the components, and designed the UI to mimick the screen of the Mass Effect console/PC game.'
+    tools: 'ReactJS, bootstrapped with create-react-app, Material UI components. UI design meant to mimick the screen of the Mass Effect game.'
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const slideData = [
   },
   {
     index: 2,
-    headline: 'AWNews Scraper',
+    headline: 'AW News Scraper',
     src: image3,
     id: 3,
     creator: 'Mattia Pace',
@@ -74,7 +74,7 @@ const slideData = [
     repo: 'www.github.com/coombapace/',
     demo: '',
     description: 'Voltron themed trivia game. Race against the clock to plumb the depths of your Voltron knowledge and choose correctly.',
-    tools: 'Built with HTML, CSS, and jQuery'
+    tools: 'HTML, CSS, jQuery, MomentJS'
   },
   {
     id: 6,
@@ -85,7 +85,7 @@ const slideData = [
     repo: 'www.github.com/coombapace/',
     demo: '',
     description: 'A store made with Node.js and MySQL. Has 3 different interfaces and levels of permission: customer, manager, and supervisor.',
-    tools: ''
+    tools: ' Node.js & SQL '
   },
   {
     id: 7,
@@ -96,7 +96,7 @@ const slideData = [
     repo: 'www.github.com/coombapace/',
     demo: '',
     description: 'A small app that runs on simple text commands. Similar to SIRI, but without the voice activation. It can search for movie or song info, find a performer\'s upcoming events, and misc. commands that can be specified in a .txt file.',
-    tools: 'Built with Node.js, frameworks, tools, & APIs used include Node-Spotify-API, Axios, OMDB API, Bands In Town API, MomentJS, and DotEnv.'
+    tools: 'Built on Node.js. Frameworks, tools, & APIs used include Node-Spotify-API, Axios, OMDB API, Bands In Town API, MomentJS, and DotEnv.'
   }
 ]
 

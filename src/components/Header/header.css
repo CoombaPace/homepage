@@ -5,9 +5,7 @@ h1 {
   text-shadow: 0 20px 12px #000;
   margin-top: -3vw;
   letter-spacing: 0.9vw;
-  /* font-size: 21vw; */
-  font-size: 5.7vw;
-
+  font-size: 21vw;
   line-height: 22vw;
   font-weight: 100;
 }
@@ -33,6 +31,7 @@ h1 {
   /* font-size: 5.7vw; */
   line-height: 7vw;
   font-family: 'Major Mono Display', monospace;
+  /* margin-bottom: 150vw; */
 }
 
 #h-h1-hero {

@@ -8,7 +8,7 @@ import './header.css'
       return (
         <div className='header-bg'>
             <header>
-                <h1 style={{fontSize: '21vw'}}>mattia pace</h1>
+                <h1>mattia pace</h1>
             </header>
             <div className='bar'></div>
             <section className='about'>

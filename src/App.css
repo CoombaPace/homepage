@@ -65,21 +65,24 @@
 }
 
 #app {
-  border-top: 6px solid #f7c445;
+  border-top: 6px solid #4B0082;
+  /* border-top: 6px solid #f7c445; */
   background-color: #000000;
   align-items: center;
   display: flex;
-  height: 120vh;
+  height: 100vw;
   justify-content: center;
   overflow-x: hidden;
+  overflow-y: hidden;
   width: 100%;
-  margin-top: 210vh;
+  margin-top: 140vw;
   transform: translateZ(-1px) scale(2);
 }
 
 #footer {
   background-color: #181616;
-  height: 220vh;
-  margin-top: 320vh;
+  height: 100vw;
+  margin-top: 202%;
+  /* margin-top: 350%; */
 }
 

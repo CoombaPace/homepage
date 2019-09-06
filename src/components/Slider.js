@@ -72,7 +72,8 @@ import './slider.scss'
           <article className="slide__content">
             <h2 className="slide__headline">{headline}</h2>
             {/* <h3 className="project-tools">{tools}</h3> */}
-            <button className="slide__action btn">{tools}</button>
+            <button id ='tools' className="slide__action btn">{tools}</button>
+            <br />
             <a href={repo}> <i className="fab fa-github-alt" id="currentSlide"> </i></a>
             <a href={demo}> <i className="fas fa-chevron-right" id="currentSlide"> </i></a>
           </article>
@@ -148,8 +149,19 @@ import './slider.scss'
       }
       
       return (
-        
-        <div className='slider' aria-labelledby={headingId}>
+
+        <div>
+          <header>
+            <h1 className='slider-heading'>
+              Work
+            </h1>
+          </header>
+
+          <div className='bar-slider-heading'></div>
+
+          <div className='slider' aria-labelledby={headingId}>
+
+
           <ul className="slider__wrapper" style={wrapperTransform}>
             <h3 id={headingId} class="visuallyhidden">{heading}</h3>
             
@@ -179,6 +191,9 @@ import './slider.scss'
             />
           </div>
         </div>
+        </div>
+        
+        
       )
     }
   }
