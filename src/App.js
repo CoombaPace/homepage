@@ -120,7 +120,7 @@ class App extends Component {
                 <Header/>
               </div>
               <div className='panels' id="app">
-                <Slider heading="Project Slider" slides={slideData} />
+                <Slider heading="Example Slider" slides={slideData} />
               </div>
               <div className='panels' id='footer'>
                 <Footer/>
