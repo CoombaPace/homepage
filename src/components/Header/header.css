@@ -1,7 +1,6 @@
 
 h1 {
   margin-block-start: 0;
-  color: white;
   text-shadow: 0 20px 12px #000;
   margin-top: -3vw;
   letter-spacing: 0.9vw;
@@ -16,22 +15,27 @@ h1 {
   font-size: 21vw;
 }
 
-.bar {
-  border-bottom: 6px solid #f7c445;
-  width: 65%;
-  margin: 0 auto;
-  margin-top: -7%;
-}
-
-#about-section {
-  font-size: 5.7vh;
-}
-
 .about {
-  /* font-size: 5.7vw; */
   line-height: 7vw;
   font-family: 'Major Mono Display', monospace;
-  /* margin-bottom: 150vw; */
+}
+
+#about-header {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 2.8vw;
+  font-weight: bold;
+  line-height: 6vw;
+  margin-top: -8vw;
+  letter-spacing: -0.34vw;
+  color: #240090;
+}
+
+#line2 {
+  letter-spacing: 1.52vw;
+}
+
+#line3 {
+  letter-spacing: -0.23vw;
 }
 
 #h-h1-hero {

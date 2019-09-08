@@ -157,7 +157,7 @@ import './slider.scss'
             </h1>
           </header>
 
-          <div className='bar-slider-heading'></div>
+          {/* <div className='bar-slider-heading'></div> */}
 
           <div className='slider' aria-labelledby={headingId}>
 

@@ -10,15 +10,15 @@ import './header.css'
             <header>
                 <h1>mattia pace</h1>
             </header>
-            <div className='bar'></div>
+
             <section className='about'>
               <header>
-                <h1 style={{fontFamily: 'Major Mono Display, monospace', fontSize: '2.8vw', lineHeight: '6vw', marginTop: '3vw', letterSpacing: '-0.34vw'}}>
+                <h1 id='about-header'>
                   is an atlanta based developer specializing in leveraging 
                   <br />
-                  <span style={{letterSpacing: '1.52vw'}}>coding + design + economics</span> 
+                  <span id='line2'>coding + design + economics</span> 
                   <br />
-                  <span style={{letterSpacing: '-0.23vw'}}>to create value, solve problems, and uplift humanity.</span>
+                  <span id='line3'>to create value, solve problems, and uplift humanity.</span>
                 </h1>
               </header>
             </section>
