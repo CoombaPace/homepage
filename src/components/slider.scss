@@ -340,9 +340,16 @@ h1, h2, h3 {
   to   { opacity: 1 }
 }
 
-@media only screen and (max-width: 360px) {
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media only screen and (max-width: 480px) {
 
   .slider-heading {
     font-size: 18vw;
+    margin-top: -30vw;
   }
 }
