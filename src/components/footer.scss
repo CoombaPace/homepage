@@ -19,3 +19,10 @@ i {
 #email-icon {
     padding-left: 4vw;
 }
+
+@media only screen and (max-width: 360px) {
+    #footer {
+        margin-top: 500%;
+    }
+}
+    

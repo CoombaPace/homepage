@@ -339,3 +339,10 @@ h1, h2, h3 {
   from { opacity: 0 }
   to   { opacity: 1 }
 }
+
+@media only screen and (max-width: 360px) {
+
+  .slider-heading {
+    font-size: 18vw;
+  }
+}

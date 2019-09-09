@@ -86,3 +86,17 @@
   /* margin-top: 350%; */
 }
 
+@media only screen and (max-width: 360px) {
+
+  h1 {
+    margin-top: 3vw;
+    letter-spacing: 3.25vw;
+    font-size: 30vw;
+    line-height: 16vw;
+    font-weight: 100;
+  }
+
+  #app {
+    margin-top: 354vw;
+  }
+}
