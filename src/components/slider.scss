@@ -86,15 +86,17 @@ h1, h2, h3 {
 #currentSlide {
   font-size: 6vw;
   padding-right: 4vw;
+  padding-left: 4vw;
   margin-top: 2vw;
+  color: #3500D3;
 }
 
 .slider-heading {
-  font-size: 6vw;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 8vw;
   line-height: 6vw;
   margin-top: -40vw;
   letter-spacing: 0.5vw;
-  color: white;
   // text-shadow: 
   //   3px 3px 0 white, 
   //   -1px -1px 0 white, 
@@ -125,9 +127,10 @@ h1, h2, h3 {
   position: absolute;
   top: calc(100% + 1rem);
   width: 100%;
+  margin-left: -3vw;
   
   .btn {
-    --size: 3rem;
+    --size: 4rem;
     
     align-items: center;
     background-color: transparent;
@@ -136,6 +139,7 @@ h1, h2, h3 {
     display: flex;
     height: var(--size);
     padding: 0;
+    margin-left: 5vw;
     width: var(--size);
     
     &:focus {
@@ -155,7 +159,7 @@ h1, h2, h3 {
 // =========================
 
 .slider {
-  --slide-size: 80vmin;
+  --slide-size: 70vmin;
   --slide-margin: 7vmin;
   
   height: var(--slide-size);
@@ -169,6 +173,7 @@ h1, h2, h3 {
   margin: 0 calc(var(--slide-margin) * -1);
   position: absolute;
   transition: transform var(--base-duration) cubic-bezier(0.25, 1, 0.35, 1);
+  margin-left: -6vw;
 }
 
 
@@ -350,6 +355,11 @@ h1, h2, h3 {
 
   .slider-heading {
     font-size: 18vw;
-    margin-top: -30vw;
+    margin-top: -20vw;
+  }
+
+  .slider {
+    margin-right: 20vw;
+    --slide-size: 77vmin;
   }
 }
