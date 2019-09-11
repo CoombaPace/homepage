@@ -27,7 +27,7 @@ const slideData = [
     creator: 'Mattia Pace',
     repo: 'https://github.com/CoombaPace/react-memory-game',
     demo: 'https://coombapace.github.io/react-memory-game/',
-    tools: 'ReactJS, bootstrapped with create-react-app, Material UI components. UI design meant to mimick the screen of the Mass Effect game.'
+    tools: 'ReactJS, Material UI components. UI design meant to mimick the screen of the Mass Effect game.'
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const slideData = [
     creator: 'John Ortega, Erik Johnson, Sam Lutz, Mattia Pace',
     repo: 'https://github.com/CoombaPace/reactstock',
     demo: 'https://reactstock.herokuapp.com/',
-    tools: 'Coded Stock Card and Modal components, using .map() to display them with their respective data, and .createPortal() to render modals to the DOM.'
+    tools: 'Keep track of your stocks! I coded Stock Card and Modal components, using .map() to display them with their respective data, and .createPortal() to render modals to the DOM.'
   },
   {
     id: 4,
@@ -59,8 +59,7 @@ const slideData = [
     creator: 'Mattia Pace',
     repo: 'https://www.github.com/coombapace/awnews',
     demo: 'https://awnews.herokuapp.com',
-    description: 'A news scraper that returns top headlines from the AntiWar.com XML feed.',
-    tools: 'Built with Node.js, MongoDB, Mongoose, Cheerio, Axios, Express, and Express Handlebars.'
+    tools: 'Scrapes AntiWar.com XML feed. Built with Node.js, MongoDB, Mongoose, Cheerio, Axios, Express, and Express Handlebars.'
   },
   {
     id: 5,
@@ -71,7 +70,6 @@ const slideData = [
     creator: 'Mattia Pace',
     repo: 'www.github.com/coombapace/',
     demo: '',
-    description: 'A clicky game where the challenge is to choose your opponent based on your selected hero. Themed off of Netflix\'s Dragon Prince Animated Series.',
     tools: 'Written in JavaScript with HTML, CSS, and jQuery.'
   },
   {  
@@ -82,8 +80,7 @@ const slideData = [
     src: image5,
     repo: 'www.github.com/coombapace/',
     demo: '',
-    description: 'Voltron themed trivia game. Race against the clock to plumb the depths of your Voltron knowledge and choose correctly.',
-    tools: 'HTML, CSS, jQuery, MomentJS'
+    tools: 'Voltron themed, timed trivia game. Made with HTML, CSS, jQuery, MomentJS'
   },
   {
     id: 7,
@@ -93,8 +90,7 @@ const slideData = [
     creator: 'Mattia Pace',
     repo: 'www.github.com/coombapace/',
     demo: '',
-    description: 'A store made with Node.js and MySQL. Has 3 different interfaces and levels of permission: customer, manager, and supervisor.',
-    tools: ' Node.js & SQL '
+    tools: 'A store made with Node.js and MySQL. Has 3 different interfaces: Customer, Manager, Supervisor'
   },
   {
     id: 8,
@@ -104,8 +100,7 @@ const slideData = [
     creator: 'Mattia Pace',
     repo: 'www.github.com/coombapace/',
     demo: '',
-    description: 'A small app that runs on simple text commands. Similar to SIRI, but without the voice activation. It can search for movie or song info, find a performer\'s upcoming events, and misc. commands that can be specified in a .txt file.',
-    tools: 'Built on Node.js. Frameworks, tools, & APIs used include Node-Spotify-API, Axios, OMDB API, Bands In Town API, MomentJS, and DotEnv.'
+    tools: 'Similar to SIRI, but with text and not voice activation. Built on Node.js. Frameworks, tools, & APIs used include Node-Spotify-API, Axios, OMDB API, Bands In Town API, MomentJS, and DotEnv.'
   }
 ]
 
