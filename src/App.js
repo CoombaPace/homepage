@@ -15,6 +15,7 @@ import image4 from './images/battlearena.png'
 import image5 from './images/voltron_screen.png'
 import image6 from './images/bamazon.png'
 import image7 from './images/liri.png'
+import image8 from './images/gbg.png'
 
 // Project Data:
 const slideData = [
@@ -26,27 +27,35 @@ const slideData = [
     creator: 'Mattia Pace',
     repo: 'https://github.com/CoombaPace/react-memory-game',
     demo: 'https://coombapace.github.io/react-memory-game/',
-    description: 'A click based memory game made with ReactJS and themed off of the Mass Effect game franchise. Player can only click an image once, repeat clicks will end and restart the game. Keep trying to set a new personal best top score!',
     tools: 'ReactJS, bootstrapped with create-react-app, Material UI components. UI design meant to mimick the screen of the Mass Effect game.'
   },
   {
     id: 2,
     index: 1,
+    headline: 'Good-Bye Galaxy Ep.4',
+    button: 'Github',
+    src: image8,
+    creator: 'Mattia Pace, Ian Cho, Chad Parks',
+    repo: 'https://www.youtube.com/watch?v=Erp9IbaZNjY',
+    demo: 'https://www.youtube.com/watch?v=Erp9IbaZNjY',
+    tools: 'I illustrated, colored, animated and edited this webseries as a part of a 3-man team, including creating concept art and voicework.'
+  },
+  {
+    id: 3,
+    index: 2,
     headline: 'Stockabily',
     button: 'Github',
     src: image1,
     creator: 'John Ortega, Erik Johnson, Sam Lutz, Mattia Pace',
     repo: 'https://github.com/CoombaPace/reactstock',
     demo: 'https://reactstock.herokuapp.com/',
-    description: 'Intended to be a lightweight and to-the-point way of staying on top of the stock market. Users can setup a username and profile to save stocks and funds. Click the stock cards to find more detailed info. Click the Refresh button to fetch most current information.',
-    whatIdid: 'I coded the Cards and Modal, I especially enjoyed writing the map function that sorts Card/Modal data, as well as using ReactDOM.createPortal.',
-    tools: 'ReactJS using create-react-app. I worked as part of a team, where  and worked extensively with GitHub.'
+    tools: 'Coded Stock Card and Modal components, using .map() to display them with their respective data, and .createPortal() to render modals to the DOM.'
   },
   {
-    index: 2,
+    id: 4,
+    index: 3,
     headline: 'AW News Scraper',
     src: image3,
-    id: 3,
     creator: 'Mattia Pace',
     repo: 'https://www.github.com/coombapace/awnews',
     demo: 'https://awnews.herokuapp.com',
@@ -54,8 +63,8 @@ const slideData = [
     tools: 'Built with Node.js, MongoDB, Mongoose, Cheerio, Axios, Express, and Express Handlebars.'
   },
   {
-    id: 4,
-    index: 3,
+    id: 5,
+    index: 4,
     headline: 'Battle Clicky Game',
     button: 'Get Focused',
     src: image4,
@@ -66,8 +75,8 @@ const slideData = [
     tools: 'Written in JavaScript with HTML, CSS, and jQuery.'
   },
   {  
-    id: 5,
-    index: 4,
+    id: 6,
+    index: 5,
     headline: 'Trivia Game',
     button: 'Get Focused',
     src: image5,
@@ -77,8 +86,8 @@ const slideData = [
     tools: 'HTML, CSS, jQuery, MomentJS'
   },
   {
-    id: 6,
-    index: 5,
+    id: 7,
+    index: 6,
     src: image6,
     headline: 'Bamazon',
     creator: 'Mattia Pace',
@@ -88,8 +97,8 @@ const slideData = [
     tools: ' Node.js & SQL '
   },
   {
-    id: 7,
-    index: 6,
+    id: 8,
+    index: 7,
     src: image7,
     headline: 'Liri',
     creator: 'Mattia Pace',
