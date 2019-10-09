@@ -27,13 +27,17 @@ html, body {
 
 body {
   // font-family: 'IBM Plex Sans', sans-serif;
-  background-color: var(--color-secondary);
+  // background-color: var(--color-secondary);
 }
 
 h1, h2, h3 {
   // font-family: 'Playfair Display', serif;
   font-family: 'MADE SAONARA 2 PERSONAL USE.otf';
-  color: #c5c6c7;
+  color: #181616;
+}
+
+h2 {
+  letter-spacing: 1vw;
 }
 
 .visuallyhidden { 
@@ -95,7 +99,7 @@ h1, h2, h3 {
   font-family: 'Major Mono Display', monospace;
   font-size: 8vw;
   line-height: 6vw;
-  margin-top: -40vw;
+  margin-top: 12vw;
   letter-spacing: 0.5vw;
   // text-shadow: 
   //   3px 3px 0 white, 
@@ -159,7 +163,7 @@ h1, h2, h3 {
 // =========================
 
 .slider {
-  --slide-size: 70vmin;
+  --slide-size: 90vmin;
   --slide-margin: 7vmin;
   
   height: var(--slide-size);
@@ -295,7 +299,6 @@ h1, h2, h3 {
   font-size: 8vmin;
   font-weight: 600;
   position: relative;
-  font-family: 'Libre Caslon Display', serif;
   color: whitw;
   text-shadow:
     3px 3px 0 #000,

@@ -1,0 +1,9 @@
+.typewriter-text {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 4vw;
+    /* margin-top: -7vw; */
+    color: #240090;
+    text-align: left;
+}

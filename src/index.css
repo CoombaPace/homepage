@@ -5,8 +5,8 @@
 html, body, #root {
   padding: 0;
   margin: 0;
-  /* height: 100%; */
-  background-color: #181616;
+  height: 100%;
+  /* background-color: #181616; */
 }
 
 html {

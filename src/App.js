@@ -3,9 +3,12 @@ import React, { Component } from 'react';
 // Components:
 import './App.css';
 import Header from './components/Header'
+import About from './components/About'
+import Typewriter from './components/Typewriter'
 import Footer from './components/Footer'
 import Wrapper from './components/Wrapper'
 import Slider from './components/Slider'
+import Contact from './components/Contact'
 
 // Images:
 import image1 from './images/iStock.png'
@@ -32,17 +35,6 @@ const slideData = [
   {
     id: 2,
     index: 1,
-    headline: 'Good-Bye Galaxy Ep.4',
-    button: 'Github',
-    src: image8,
-    creator: 'Mattia Pace, Ian Cho, Chad Parks',
-    repo: 'https://www.youtube.com/watch?v=Erp9IbaZNjY',
-    demo: 'https://www.youtube.com/watch?v=Erp9IbaZNjY',
-    tools: 'I illustrated, colored, animated and edited this webseries as a part of a 3-man team, including creating concept art and voicework.'
-  },
-  {
-    id: 3,
-    index: 2,
     headline: 'Stockabily',
     button: 'Github',
     src: image1,
@@ -52,8 +44,8 @@ const slideData = [
     tools: 'Keep track of your stocks! I coded Stock Card and Modal components, using .map() to display them with their respective data, and .createPortal() to render modals to the DOM.'
   },
   {
-    id: 4,
-    index: 3,
+    id: 3,
+    index: 2,
     headline: 'AW News Scraper',
     src: image3,
     creator: 'Mattia Pace',
@@ -62,8 +54,8 @@ const slideData = [
     tools: 'Scrapes AntiWar.com XML feed. Built with Node.js, MongoDB, Mongoose, Cheerio, Axios, Express, and Express Handlebars.'
   },
   {
-    id: 5,
-    index: 4,
+    id: 4,
+    index: 3,
     headline: 'Battle Clicky Game',
     button: 'Get Focused',
     src: image4,
@@ -71,6 +63,17 @@ const slideData = [
     repo: 'www.github.com/coombapace/',
     demo: '',
     tools: 'Written in JavaScript with HTML, CSS, and jQuery.'
+  },
+  {
+    id: 5,
+    index: 4,
+    headline: 'Good-Bye Galaxy Ep.4',
+    button: 'Github',
+    src: image8,
+    creator: 'Mattia Pace, Ian Cho, Chad Parks',
+    repo: 'https://www.youtube.com/watch?v=Erp9IbaZNjY',
+    demo: 'https://www.youtube.com/watch?v=Erp9IbaZNjY',
+    tools: 'I illustrated, colored, animated and edited this webseries as a part of a 3-man team, including creating concept art and voicework.'
   },
   {  
     id: 6,
@@ -118,19 +121,11 @@ class App extends Component {
     return (
       <div className="App">
         <Wrapper>
-          <div className='container'>
-            <div className='parallax-group'>
-              <div className='panels' id='header'>
                 <Header/>
-              </div>
-              <div className='panels' id="app">
-                <Slider heading="Example Slider" slides={slideData} />
-              </div>
-              <div className='panels' id='footer'>
-                <Footer/>
-              </div>
-            </div>  
-          </div>
+                <About/>
+                <Slider heading="Project Slider" slides={slideData} />
+                <Contact/>
+              <Footer/>
         </Wrapper>
       </div>
     );
