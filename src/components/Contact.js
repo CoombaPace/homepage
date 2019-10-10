@@ -54,7 +54,7 @@ class Contact extends Component {
     // }
 
     // const url = 'http://localhost:3000';
-    const url = 'https://coombapace.github.io/telegram-message-bot/';
+    const url = 'https://telegram-message-bot.herokuapp.com/';
     console.log(this.state);
     fetch(url, {
       method: 'POST',
