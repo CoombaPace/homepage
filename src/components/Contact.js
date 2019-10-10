@@ -48,13 +48,13 @@ class Contact extends Component {
     //optional subject
     //(required) in box
 
-    if (isIncompleteRecaptcha) {
-      alert('please tick recaptcha');
-      return;
-    }
+    // if (isIncompleteRecaptcha) {
+    //   alert('please tick recaptcha');
+    //   return;
+    // }
 
-    const url = 'http://localhost:3000';
-    //const url = 'http://localhost:8080';
+    // const url = 'http://localhost:3000';
+    const url = 'https://coombapace.github.io/telegram-message-bot/';
     console.log(this.state);
     fetch(url, {
       method: 'POST',
@@ -121,12 +121,12 @@ class Contact extends Component {
           </div>
 
           <div className="submitArea">
-            <ReCaptcha
+            {/* <ReCaptcha
               className="recaptcha"
               ref="recaptcha"
               sitekey="6LdeiGYUAAAAAIAihGaRFl-FZBLqRXf8DhC7lu9h"
               onChange={this.handleRecaptcha}
-            />
+            /> */}
             <button type="submit" style={{fontSize: '2vw'}}>Submit</button>
           </div>
         </form>
