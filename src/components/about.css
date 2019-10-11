@@ -6,6 +6,10 @@
     margin-top: -3vw;
     background-color: white;
   }
+
+  .intro {
+    font-size: 3vw;
+  }
   
   #about-header {
     font-family: 'Major Mono Display', monospace;
@@ -21,7 +25,7 @@
     font-family: 'Major Mono Display', monospace;
     font-weight: bold;
     width: 80vw;
-    font-size: 3vw;
+    font-size: 1.75vw;
     padding-left: 15vw;
     letter-spacing: .1vw;
     text-align: left;
