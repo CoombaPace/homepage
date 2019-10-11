@@ -38,7 +38,7 @@ class Contact extends Component {
 
     const isInvalidForm = name === '' || email === '' || message === '';
 
-    const isIncompleteRecaptcha = gToken === '';
+    // const isIncompleteRecaptcha = gToken === '';
 
     if (isInvalidForm) {
       alert('hey your form is incomplete, please answer all boxes');
@@ -53,9 +53,9 @@ class Contact extends Component {
     //   return;
     // }
 
+    const url = 'https://coombapace.github.io/telegram-message-bot/';
     // const url = 'http://localhost:3000';
-    const url = 'https://telegram-message-bot.herokuapp.com/';
-    console.log(this.state);
+    // const url = 'https://telegram-message-bot.herokuapp.com/';
     fetch(url, {
       method: 'POST',
       mode: 'cors',

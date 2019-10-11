@@ -20,7 +20,7 @@ import Typewriter from './Typewriter'
                 a full-stack web developer & designer based in Atlanta. <br/><br/>
                 <span>working in: <Typewriter></Typewriter></span>
                 <br/>
-                i'm former trAde AnAlyst and sAlumist turned coder. that found coding at the intersection of technology + food + beer.
+                i'm a former trAde AnAlyst turned sAlumist and entrepreneur that found coding at the intersection of technology + food + beer.
                 <br/><br/>
                 stArted coding As A wAy AutomAte my home brewery And AnAlyze its dAtA.<br/><br/>
                 studied economics At georgiA stAte university's Andrew school of policy studies. <br/><br/>
