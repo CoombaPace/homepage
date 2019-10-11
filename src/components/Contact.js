@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './contact.css';
-import ReCaptcha from 'react-google-recaptcha';
 
 class Contact extends Component {
   state = {
@@ -9,9 +8,7 @@ class Contact extends Component {
       email: '',
       subject: '',
       message: '',
-    },
-
-    gToken: '',
+    }
   };
   handleChange = event => {
     console.log(event.target.name);
@@ -24,21 +21,12 @@ class Contact extends Component {
     });
   };
 
-  handleRecaptcha = value => {
-    console.log(value);
-    this.setState({
-      gToken: value,
-    });
-  };
 
   handleSubmit = event => {
     event.preventDefault();
     const { name, email, subject, message } = this.state.form;
-    const { gToken } = this.state;
 
     const isInvalidForm = name === '' || email === '' || message === '';
-
-    // const isIncompleteRecaptcha = gToken === '';
 
     if (isInvalidForm) {
       alert('hey your form is incomplete, please answer all boxes');
@@ -48,18 +36,13 @@ class Contact extends Component {
     //optional subject
     //(required) in box
 
-    // if (isIncompleteRecaptcha) {
-    //   alert('please tick recaptcha');
-    //   return;
-    // }
-
-    // const url = 'https://coombapace.github.io/telegram-message-bot/';
-    const url = 'http://localhost:3000';
     // const url = 'https://telegram-message-bot.herokuapp.com/';
+    const url = 'http://localhost:3000';
+    console.log(this.state);
     fetch(url, {
       method: 'POST',
       mode: 'cors',
-      body: JSON.stringify({ ...this.state.form, gToken }),
+      body: JSON.stringify({ ...this.state.form }),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -72,15 +55,13 @@ class Contact extends Component {
 
   render() {
     return (
-      
       <div className="form-wrapper">
         <div className="form-heading">
-          <h1>Ask a question or say hello!</h1>
+          <p>Ask a question or say hello! Contact me here ☺ ☻</p>
         </div>
-        
         <form onSubmit={this.handleSubmit}>
           <div>
-            <label>name:</label>
+            <label>Name:</label>
             <input
               placeholder="(Required)"
               type="text"
@@ -90,7 +71,7 @@ class Contact extends Component {
             />
           </div>
           <div>
-            <label>email:</label>
+            <label>Email Address:</label>
             <input
               placeholder="(Required)"
               type="text"
@@ -100,7 +81,7 @@ class Contact extends Component {
             />
           </div>
           <div>
-            <label>subject:</label>
+            <label>Subject:</label>
             <input
               placeholder="(Optional)"
               type="text"
@@ -121,13 +102,8 @@ class Contact extends Component {
           </div>
 
           <div className="submitArea">
-            {/* <ReCaptcha
-              className="recaptcha"
-              ref="recaptcha"
-              sitekey="6LdeiGYUAAAAAIAihGaRFl-FZBLqRXf8DhC7lu9h"
-              onChange={this.handleRecaptcha}
-            /> */}
-            <button type="submit" style={{fontSize: '2vw'}}>Submit</button>
+            
+            <button type="submit">Submit</button>
           </div>
         </form>
       </div>
