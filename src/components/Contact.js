@@ -61,7 +61,7 @@ class Contact extends Component {
         </div>
         <form onSubmit={this.handleSubmit}>
           <div>
-            <label>Name:</label>
+            <label>name:</label>
             <input
               placeholder="(Required)"
               type="text"
@@ -71,7 +71,7 @@ class Contact extends Component {
             />
           </div>
           <div>
-            <label>Email Address:</label>
+            <label>email:</label>
             <input
               placeholder="(Required)"
               type="text"
@@ -81,7 +81,7 @@ class Contact extends Component {
             />
           </div>
           <div>
-            <label>Subject:</label>
+            <label>subject:</label>
             <input
               placeholder="(Optional)"
               type="text"
