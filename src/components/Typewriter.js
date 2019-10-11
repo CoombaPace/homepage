@@ -62,15 +62,14 @@ class Typewriter extends React.Component {
     };
 
     return (
-      <div class='typewriter-text'> 
-        <h1 class='typewriter-text'>
+      <div className='typewriter-text'> 
+        <h1 className='typewriter-text'>
           <span
             class="txt-rotate"
             data-period="1000"
             data-rotate='[ " full-stack javascript", " node.js", " react.js", " illusrator", " premiere pro", " photoshop", " css/sass" ]'>
           </span>
         </h1>
-        <h2></h2>
       </div>
     )
   }
