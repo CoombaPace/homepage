@@ -57,7 +57,7 @@ class Contact extends Component {
     return (
       <div className="form-wrapper">
         <div className="form-heading">
-          <p>Ask a question or say hello! Contact me here ☺ ☻</p>
+          <p>Ask A question or sAy hello!</p>
         </div>
         <form onSubmit={this.handleSubmit}>
           <div>
