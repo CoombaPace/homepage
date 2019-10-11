@@ -19,13 +19,12 @@ h1 {
 }
 
 @media only screen and (max-width: 360px) {
-
-  /* h1 {
-    margin-top: 3vw;
-    letter-spacing: 3.25vw;
-    font-size: 30vw;
-    line-height: 16vw;
-    font-weight: 100;
+  .header-bg {
+    height: 25%;
+  }
+/*
+  h1 {
+    line-height: 24vw;
   }
 
   #about-header {
