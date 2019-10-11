@@ -124,7 +124,7 @@ class App extends Component {
                 <Header/>
                 <About/>
                 <Slider heading="Project Slider" slides={slideData} />
-                <Contact/>
+                {/* <Contact/> */}
               <Footer/>
         </Wrapper>
       </div>

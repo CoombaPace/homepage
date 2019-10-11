@@ -151,7 +151,7 @@ import './slider.scss'
       
       return (
 
-        <div>
+        <div className='slider-container'>
           <header>
             <h1 className='slider-heading'>
               pRojects
