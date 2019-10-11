@@ -57,7 +57,7 @@ class Contact extends Component {
     return (
       <div className="form-wrapper">
         <div className="form-heading">
-          <p>Ask A question or sAy hello!</p>
+          <p>Ask a question or say hello!</p>
         </div>
         <form onSubmit={this.handleSubmit}>
           <div>
@@ -103,7 +103,7 @@ class Contact extends Component {
 
           <div className="submitArea">
             
-            <button type="submit">Submit</button>
+            <button className='subBtn' type="submit">Submit</button>
           </div>
         </form>
       </div>

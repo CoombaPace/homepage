@@ -9,9 +9,9 @@
     margin-right: auto;
 }
 .form-heading {
-    /* color: #525252; */
+    font-family: 'MADE SAONARA 2 PERSONAL USE.otf';
     color: #240090;
-    font-size: 3vw;
+    font-size: 4vw;
     letter-spacing: .6vw;
     padding-bottom: 30px;
 }
@@ -40,4 +40,8 @@ background-color: #eeebe7;
 font-family: 'MADE SAONARA 2 PERSONAL USE.otf';
 font-size: 2vw;
 letter-spacing: .25vw;
+}
+
+.subBtn {
+    font-size: 2vw;
 }
