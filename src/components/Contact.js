@@ -36,8 +36,8 @@ class Contact extends Component {
     //optional subject
     //(required) in box
 
-    // const url = 'https://telegram-message-bot.herokuapp.com/';
-    const url = 'http://localhost:3000';
+    const url = 'https://telegram-message-bot.herokuapp.com/';
+    // const url = 'http://localhost:3000';
     console.log(this.state);
     fetch(url, {
       method: 'POST',
