@@ -20,18 +20,17 @@ import Typewriter from './Typewriter'
                 <span className='intro'>
                 a full-stack web developer & designer based in Atlanta. <br/><br/>
                 <span>working in: <Typewriter></Typewriter></span>
-                <br/>
                 </span>
-                a former trAde AnAlyst turned sAlumist, i found coding At the intersection of technology + food + beer.
+                {/* a former trAde AnAlyst turned sAlumist, i found coding At the intersection of
+                technology + food + beer. <br/><br/> */}
+                {/* the fun of coding, like entrepreneurship and fermenting beer and sausage, is all in the creative problem solving/opportunity creation. */}
                 <br/><br/>
-                i stArted coding by teaching myself python And working with a RAspberry-pi to AutomAte my home brewery And AnAlyze its dAtA.<br/>
-                i chose to pursue it further in order to solve recurring problems thAt i encountered As i consulted firms As A trAde AnAlyst.<br/><br/>
-                studied economics At georgiA stAte university's Andrew school of policy studies. <br/><br/>
-                i wear All the hAts. <br/><br/>
-                illustrAte / Animate / tinker / gArden in my free time. <br/><br/>
-                {/* interested in design, motion, blockchain, games, economics, and zymology. <br/><br/> */}
+                {/* stArting with an iot solution for my homebrewing setup. using python And A RAspberry-pi, i sought to AutomAte my home brewery And AnAlyze its dAtA.<br/>
                 
-                my homebrew is good enough to be of some use in A MAd MAxiAn dystopiA situAion. <br/><br/>
+                i hAve worked with international marketing and design teams contributing digital assets, layouts, mockups, concept art, and custom coded elements and features.<br/><br/>
+                i Am adept at wearing All the hAts and navigating in uncertain circumstances, two things all entepreneurs must excel at. <br/><br/>
+                in my free-time, you'll find me illustrAting, coding games, tinkering, and gardening. <br/><br/>
+                my homebrew is good enough to be of some use in A MAd MAxiAn dystopiA situAion. <br/><br/> */}
               </h1>
 
             </section>
