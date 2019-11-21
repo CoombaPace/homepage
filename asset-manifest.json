@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.88571f01.chunk.css",
-    "main.js": "/homepage/static/js/main.a8c2b754.chunk.js",
-    "main.js.map": "/homepage/static/js/main.a8c2b754.chunk.js.map",
+    "main.js": "/homepage/static/js/main.b47c8b37.chunk.js",
+    "main.js.map": "/homepage/static/js/main.b47c8b37.chunk.js.map",
     "runtime~main.js": "/homepage/static/js/runtime~main.336ecad5.js",
     "runtime~main.js.map": "/homepage/static/js/runtime~main.336ecad5.js.map",
-    "static/js/2.a53cc090.chunk.js": "/homepage/static/js/2.a53cc090.chunk.js",
-    "static/js/2.a53cc090.chunk.js.map": "/homepage/static/js/2.a53cc090.chunk.js.map",
+    "static/js/2.bc96cd71.chunk.js": "/homepage/static/js/2.bc96cd71.chunk.js",
+    "static/js/2.bc96cd71.chunk.js.map": "/homepage/static/js/2.bc96cd71.chunk.js.map",
     "index.html": "/homepage/index.html",
-    "precache-manifest.c42b8a99c25b02d948e04d6a56c22676.js": "/homepage/precache-manifest.c42b8a99c25b02d948e04d6a56c22676.js",
+    "precache-manifest.7ef8bc33b7b88296f98bc8e189dfb460.js": "/homepage/precache-manifest.7ef8bc33b7b88296f98bc8e189dfb460.js",
     "service-worker.js": "/homepage/service-worker.js",
     "static/css/main.88571f01.chunk.css.map": "/homepage/static/css/main.88571f01.chunk.css.map",
     "static/media/slider.scss": "/homepage/static/media/MADE SAONARA 2 PERSONAL USE.d45c7fca.otf",
@@ -19,6 +19,7 @@
     "static/media/iStock.png": "/homepage/static/media/iStock.c1b1d32a.png",
     "static/media/liri.png": "/homepage/static/media/liri.01bdf4b7.png",
     "static/media/memory_clicker.png": "/homepage/static/media/memory_clicker.1564e8dd.png",
+    "static/media/telegram.png": "/homepage/static/media/telegram.ac6c2e1c.png",
     "static/media/voltron_screen.png": "/homepage/static/media/voltron_screen.c14e772b.png"
   }
 }
